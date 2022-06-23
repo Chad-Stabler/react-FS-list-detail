@@ -1,6 +1,6 @@
 import './App.css';
 import GamesPage from './GamesPage';
-import GameDetail from './GameDetail';
+//import GameDetail from './GameDetail';
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,7 +18,7 @@ function App() {
             <GamesPage />
           </Route>
           <Route exact path="/game/:Game">
-            <GameDetail />
+            {/* <GameDetail /> */}
           </Route>
         </Switch>
       </div>
