@@ -23,7 +23,7 @@ function App() {
   }, [page]);
 
   return (
-    <div>
+    <div className='list-page'>
       <h2>Current Page: {page}</h2>
       <Pagination page={page} setPage={setPage} />
       <GamesList games={games}/>

@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.list-page, .game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game {
+  border: 2px solid olive;
+  margin: 5px;
+  padding: 3px;
+}
+
+.games {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.games a {
+  width: 30%;
+}
